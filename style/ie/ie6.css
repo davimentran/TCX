@@ -1,0 +1,71 @@
+div#overall {
+	background: #ffffe1;
+	opacity: 0.5;
+	z-index: 10;
+	width: 100%;
+	height: 100%;
+	left: 0;
+	position: absolute;
+	top: 0;
+	/* Fix in IE */
+	filter: alpha(opacity =   50);
+}
+
+div#absolute {
+	position: absolute;
+	z-index: 15;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+}
+
+#iecheck {
+	FONT-SIZE: 11px;
+	Z-INDEX: 99;
+	BACKGROUND: url(../images/iecheck/warning.png) #ffffe1 no-repeat 0px 0px;
+	LEFT: 0px;
+	VISIBILITY: hidden;
+	WIDTH: 100%;
+	COLOR: #646464;
+	BORDER-BOTTOM: #999999 1px solid;
+	POSITION: absolute;
+	TOP: 0px;
+	HEIGHT: auto
+}
+
+#iecheck P.msg {
+	PADDING-RIGHT: 0px;
+	PADDING-LEFT: 0px;
+	PADDING-BOTTOM: 0px;
+	MARGIN: 0px 70px 0px 25px;
+	PADDING-TOP: 0px
+}
+
+#iecheck DIV.close {
+	RIGHT: 25px;
+	CURSOR: pointer;
+	COLOR: #aa1428;
+	POSITION: absolute;
+	TOP: 0px
+}
+
+#iecheck IMG {
+	VERTICAL-ALIGN: middle
+}
+
+#iecheck A:link {
+	COLOR: #aa1428;
+	WHITE-SPACE: nowrap;
+	TEXT-DECORATION: none
+}
+
+#iecheck A:visited {
+	COLOR: #aa1428;
+	WHITE-SPACE: nowrap;
+	TEXT-DECORATION: none
+}
+
+#iecheck A:hover {
+	COLOR: #ff0000;
+	TEXT-DECORATION: underline
+}

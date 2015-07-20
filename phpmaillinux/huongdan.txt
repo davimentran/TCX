@@ -1,0 +1,22 @@
+Ban chep code cua file smtp.txt vao 1 file smtp.php
+
+Sau do dung lenh include de include file nay vao trang php co dung ham SendMail()
+
+Bay gio thay vi ban viet: 
+
+mail($tomail, $frommail, $content, $subject);
+
+Ban sua lai la:
+
+SendMail($frommail, $tomail, $subject, $content);
+
+Trong code co doan:
+
+      $smtp_host ='mail.sindredesign.com';//Dia chi mail server
+      $admin_email = 'info@sindredesign.com';//User duoc khai bao tren mail server
+      $smtp_username = 'info@sindredesign.com';//User duoc khai bao tren mail server
+      $smtp_password = '123456';//Pass cua email nay
+
+Ban thay thong tin email tuong ung cua ban vao la duoc. 
+
+Chu y: email nay la email ma ban da tao tren hosting duoc khai bao trong bien: $smtp_host.

@@ -1,0 +1,20 @@
+body{background:#fff;font:12px Arial;text-align:center;}
+form{margin:0px;padding:0px;}
+h3{color:#333;font:normal 18px Arial;text-align:left;}
+p,li{font-size:13px;font-weight:normal;line-height:150%;text-align:left;}
+td{font:normal 12px Arial;text-align:left;text-decoration:none;}
+.boxGrey{background:url(../images/bglogin.gif);color:#666;font:12px Arial;padding:10px 10px 10px 15px;}
+.boxRed{background:url(../images/bg.jpg) repeat-x;border-bottom:1px solid #d94e0a;border-left:1px solid #d94e0a;border-right:1px solid #d94e0a;color:#FFF;font:bold 13px Arial;height:28px;padding:1px 4px 1px 4px;}
+.butt{border-bottom:#000080 1px solid;border-left:#000080 1px solid;border-right:#000080 1px solid;border-top:#000080 1px solid;color:#000;font:12px Arial;}
+.header4{color:#c00;font:bold 22px Arial;padding-top:25px;}
+.hide{display:none;}
+.img{border:0px solid #006688;}
+.nd1{background:#EEEEE8;border:solid 1px #006688;font:normal 13px Arial;text-indent:4px;width:170px;}
+.show{display:block;}
+.txtdam{font:normal 12px Arial;color:#666}
+.txtdo{color:#F00;font:12px Arial;padding-left:5px;text-align:left}
+p.ie{font-weight:bold;}
+#space5{padding-left:0px;padding-right:5px;}
+div#divposition{border:0px solid;margin:0 auto;position:relative;text-align:left;top:80px;}
+a:link,a:visited{color:#900;font:12px Arial;}
+a:hover{color:#F90;font:12px Arial;}

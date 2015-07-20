@@ -1,0 +1,5 @@
+
+RewriteEngine on
+Options -Indexes
+
+RewriteRule (.*)\.jsp$ $1.php

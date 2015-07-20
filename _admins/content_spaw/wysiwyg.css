@@ -1,0 +1,65 @@
+body
+{
+	background-color: #ffffff;
+}
+body, tr,td, table {
+	color: #000000;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 9pt;
+}
+.style1 {
+	color: green;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+  font-weight : bolder;
+	font-size: 10pt;
+}
+.style2 {
+	color: red;
+  background-color: #dddddd;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+  font-weight : bolder;
+	font-size: 12pt;
+}
+.imgLeft
+{
+	padding-left:15px;
+}
+
+.imgRight
+{
+	padding-right:15px;
+}
+.mainview
+{
+  background-color:#C1C9DB;
+  width:100%; 
+}
+.row2 td,.row1 td
+{
+  text-align:left;
+  padding:3px 8px;
+  width:80%;
+}
+.row2 td.col,.row1 td.col
+{
+	width:20%;
+	font-weight:bold;
+}
+.row2 td,.row1 td
+{
+	border-right:1px solid #EBF1F6;
+	border-bottom:1px solid #EBF1F6;
+}
+.row2
+{
+  background-color:#fff;
+}
+.row1
+{
+  background-color:#EBF1F6;
+}
+tr.row2 td:hover,tr.row1 td:hover
+{
+  background-color: #F5F8FA;
+  cursor:pointer;
+}

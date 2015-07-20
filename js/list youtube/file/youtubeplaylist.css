@@ -1,0 +1,167 @@
+/* ===[ Surround div around player. Is optional ]=== */
+
+.youtubeplayer {
+    width: 284px;
+    height: 360px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    border: 0px solid #BFBFBF;
+    background: #F6F6F6;
+}
+
+/* END
+   ================================================== */
+
+/* youtube css (needed)  */
+
+.yt_holder {
+    background: #F2F2F2;
+    font: 12px/20px Arial, Helvetica, sans-serif;
+    padding: 10px;
+    float: left;
+    border: 1px solid #D6D6D6;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    -webkit-box-shadow: 2px 2px 10px #423942;
+    -moz-box-shadow: 2px 2px 10px #423942;
+    box-shadow: 2px 2px 10px #423942;
+    /*behavior: url(./css/ie-css3.htc);*/
+}
+
+/** Now set by the js adjustHeight
+ *  Player Iframe and player version 3
+ * #ytvideo {
+ * height:366px;
+ * }
+ * /* Use this is you use the player version 2
+ * Also play with this height isf you use autoHide playerbar
+ * #ytvideo2 {
+ * height:385px;
+ * }
+ */
+
+/** Only set for the page startup height*/
+#ytvideo, #ytvideo2, #ytvideo3, #ytvideo4 {
+  height:230px;
+}
+
+.currentvideo { background: #e6e6e6 }
+
+div.youplayer p {
+    clear: both;
+    position: relative;
+    height: 11px;
+    width: 284px;
+    margin: 0 0 -14px 95px;
+    padding: 0;
+    font-size: 11px;
+    text-transform: bold;
+    line-height: 1;
+    font-weight: bold;
+    color: #dedede;
+    z-index: 999;
+}
+
+div.youplayer .time {
+    position: absolute;
+    width: 284px;
+    margin-top: -2px;
+    font-size: 10px;
+    color: #dedede;
+    z-index: 999;
+    text-align: right;
+    float: right;
+}
+
+/* PLAYLIST AND SCROLLBAR  */
+
+div.youplayer ul.videoyou {
+    height: 129px;
+    margin: 0;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    padding: 0;
+    position: relative;
+    width: 284px;
+}
+
+/* VERTICAL SPACE IN BETWEEN EACH VIDEO  */
+
+div.youplayer ul.videoyou li {
+    list-style-type: none;
+    width: 274px;
+    margin: 2px 0 0 0;
+    padding: 0;
+}
+
+/* THUMBNAIL IMAGE  */
+
+div.youplayer ul.videoyou li img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 50px;
+    height: 30px;
+    margin: 2px;
+    padding: 3px;
+    border: none;
+}
+
+/* PARAGRAPH DESCRIPTIONS  */
+
+div.youplayer ul.videoyou li a {
+    position: relative;
+    display: block;
+    outline: none;
+    width: 193px;
+    height: 30px;
+    margin: 0;
+    padding: 10px 4px 0 70px;
+    font-size: 11px;
+    line-height: 1.2;
+    text-align: left;
+    text-decoration: none;
+    background: #666;
+    color: #dedede;
+}
+
+/* up down buttons  */
+div.you_up {
+    border: 0px;
+    float: left;
+    padding: 0;
+    margin: -13px 0 0 -17px;
+    height: 24px;
+    width: 24px;
+    cursor: pointer;
+    position: absolute;
+    z-index: 999;
+    display: none;
+}
+
+div.you_down {
+    border: 0px;
+    float: left;
+    padding: 0;
+    margin: -13px 0 0 -17px;
+    height: 24px;
+    width: 24px;
+    cursor: pointer;
+    position: absolute;
+    z-index: 999;
+    display: none;
+}
+
+div.youplayer ul.videoyou li a.currentvideo {
+    background: #333 !important;
+    width: 194px;
+    color: #dedede;
+}
+
+div.youplayer ul.videoyou li a:hover { background: #595959 }
+
+/* youtube css END  */
+
+

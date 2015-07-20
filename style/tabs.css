@@ -1,0 +1,71 @@
+#tabs_wrapper {
+	clear: both;
+}
+#tabs_container {
+    border-bottom: 5px solid #F1770A;
+}
+#tabs {
+    list-style: none outside none;
+    margin: 0 0 0 10px;
+    padding: 5px 0 3px;
+}
+#tabs li {
+    display: inline;
+}
+#tabs li a {
+    -moz-border-bottom-colors: none;
+    -moz-border-image: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background-color: #666;
+    border-color: #CCCCCC #CCCCCC -moz-use-text-color;
+    border-radius: 5px 5px 0 0;
+    border-style: solid solid none;
+    border-width: 1px 1px medium;
+    color: white;
+    font-weight: bold;
+    outline: medium none;
+    padding: 6px 6px 5px;
+    text-decoration: none;
+}
+#tabs li a:hover {
+    background-color: #F1770A;
+    padding: 6px 6px 5px;
+}
+#tabs li.active a {
+    background-color: #F1770A;
+    border-bottom: medium none;
+    padding: 6px 6px 5px;
+}
+#tabs li.active a:hover {
+    background-color: #F1770A;
+    border-bottom: medium none;
+    padding: 6px 6px 5px;
+}
+#tabs li a.icon_accept {
+    background-image: url("style/images/champartours/accept.png");
+    background-position: 5px 50%;
+    background-repeat: no-repeat;
+    padding-left: 24px;
+    padding-right: 10px;
+}
+#tabs li a.icon_accept:hover {
+    padding-left: 24px;
+    padding-right: 10px;
+}
+#tabs_content_container {
+    -moz-border-bottom-colors: none;
+    -moz-border-image: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background-color: #666;
+    border-color: -moz-use-text-color #CCCCCC #CCCCCC;
+    border-style: none solid solid;
+    border:1px solid #F1770A;
+    padding: 10px;
+}
+.tab_content {
+    display: none;
+}

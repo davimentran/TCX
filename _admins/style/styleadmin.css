@@ -1,0 +1,128 @@
+body {font-family:Tahoma;font-size:12px;color:#666;	background-color:#fff;	margin-top:10px;padding:0px;}
+
+.clear{	clear:both;	font-size:0px;	margin:0px;	padding:0px;}
+
+.tdMenuTop{	height:28px; text-align:center; vertical-align:middle; border-bottom:1px #FFF solid; border-top:1px #333 solid;}
+
+a.topmenu:link,a.topmenu:visited,a.topmenu:active{color:#336699;font-weight:bold;font-size:11px;text-align:center;}
+
+a.topmenu:hover{color:#2B2B80;font-weight:bold;font-size:11px;text-align:center;}
+
+a.topmenu_select:link,a.topmenu_select:visited,a.topmenu_select:hover{color:#CC0000;font-weight:bold;font-size:11px;text-align:center;}
+
+.contentMain{clear:both; margin-top:1px; border-top:1px #4F81B3 solid; border-left:1px #4F81B3 solid; border-right:1px #4F81B3 solid; border-bottom:15px #275487 solid;}
+
+.contentChildMain{ clear:both; padding:10px 0px 10px 0px;}
+
+.welcome{ clear:both; background:#4F81B3; height:28px; border-top:1px solid #666;}
+
+.icon{float:left; height:28px; width:28px; margin-left:5px; background:url(../images/star_blue.jpg) no-repeat;}
+
+.around{float:left; width:222px; height:132px; background: url(../images/around.png) no-repeat;}
+
+a:link, a:visited{	color:#336699;	text-decoration:none;	font-size:12px;	}
+a:hover{ color:#FF0000; text-decoration:underline; font-size:12px;}
+
+a.menuChild:link,a.menuChild:visited{
+	color:#000;	
+	outline:none;
+	font-weight:normal;
+	
+}
+a.menuChild:hover{
+	color:#cc0000;
+	outline:none;
+	font-weight:normal;
+}
+.tdLeftMiddle{ text-align: left; vertical-align: middle;}
+.tdRightMiddle{ text-align: right; vertical-align: middle;}
+
+a.linkHeader:link, a.linkHeader:visited{color:#FFF; text-decoration: none;}
+a.linkHeader:hover{color:#FF9900; text-decoration: underline;}
+
+form{margin:0px; padding: 0px;}
+
+.contentItem{clear:both; border-bottom: 1px #EEE solid; padding-bottom: 2px;}
+
+.postLeft{float:left; width:120px; text-align:right; padding:6px 0px 0px 0px;}
+
+.postRight{float:left; text-align:left; padding:4px 0px 0px 10px;}
+
+.inputCheckBox{margin-left:0px; padding-left:0px;}
+
+.textbox1{width:80px;margin-left:0px; padding-left:0px;}
+
+.textbox2{width:300px;margin-left:0px; padding-left:0px;}
+
+.textbox3{width:500px;margin-left:0px; padding-left:0px;}
+
+.textbox4{width:750px;margin-left:0px; padding-left:0px;}
+
+.textbox5{width:100px;margin-left:0px; padding-left:0px; font-size: 10px;}
+
+.actionmenu{clear:both; margin-top:1px; height: 20px; border: 1px #4F81B3 solid; padding: 0px 20px 0px 20px;}
+.paging_cat{clear:both; margin-top:1px; height: 30px; border: 1px #4F81B3 solid; padding: 0px 20px 0px 20px;}
+
+a.linkactionmenu:link, a.linkactionmenu:visited{text-decoration:none; color: #2B2B80;}
+a.linkactionmenu:hover{text-decoration:none; color: #FF0000;}
+
+/*CSS paging_meneame style pagination*/
+DIV.paging_meneame {
+	margin:0px auto; border:0px solid;PADDING: 1px; FONT-SIZE: 11px;COLOR: #333;
+}
+DIV.paging_meneame A {
+	BORDER: #4F81B3 1px solid; BACKGROUND:#FFF; padding:0px 5px 0px 5px; COLOR: #333; MARGIN-LEFT: 1px; TEXT-DECORATION: none; FONT-SIZE: 11px;
+}
+DIV.paging_meneame A:hover {
+	BORDER: #4F81B3 1px solid; margin-left:1px; COLOR: #FFF; BACKGROUND: #4F81B3; padding:0px 5px 0px 5px;FONT-SIZE: 11px;
+}
+DIV.paging_meneame A:active {
+	BORDER: #4F81B3 1px solid; margin-left:1px; COLOR: #FFF; BACKGROUND: #4F81B3; padding:0px 5px 0px 5px;FONT-SIZE: 11px;
+}
+DIV.paging_meneame SPAN.paging_current {
+	BORDER: #4F81B3 1px solid; margin-left:1px; COLOR: #FFF; BACKGROUND: #4F81B3; padding:0px 5px 0px 5px;FONT-SIZE: 11px;
+}
+
+DIV.paging_meneame SPAN.paging_disabled {
+	BORDER: #4F81B3 1px solid; PADDING:0px 5px 0px 5px;COLOR: #333; MARGIN-LEFT: 1px; FONT-SIZE: 11px;
+}
+
+.tdContent{ padding-left: 5px; text-align: left; vertical-align: bottom;}
+.tdTitle{background:#4F81B3; height:22px; text-align: center; vertical-align: middle; color: #FFF;}
+
+/****************************/
+#top10{	padding-bottom:10px;padding-top:10px;padding-left:10px;}
+
+#top5{padding-bottom:5px;padding-top:5px;padding-left:5px;}
+/*********************************    Menu     *********************************************/
+/* this is the clipping region for the menu. it's width and height get set by script, depending on the size of the items table */
+.transMenu {position:absolute;overflow:hidden;left:-1000px;top:-1000px;}
+
+/* this is the main container for the menu itself. it's width and height get set by script, depending on the size of the items table */
+.transMenu .content {position:absolute;}
+
+/* this table comprises all menu items. each TR is one item. It is relatively positioned so that the shadow and background transparent divs can be positioned underneath it */
+.transMenu .items {	position:relative;left:0px; top:0px;z-index:2;}
+
+.transMenu.top .items {	border-top:none; background: #DDDDDD;-moz-opacity:.8;filter:alpha(opacity=70);}
+
+/* each TR.item is one menu item */
+.transMenu .item {color:#00145D;font-size:10px;font-family:tahoma;text-decoration:none;
+	/* this is a hack for mac/ie5, whom incorrectly cascades the border properties of the parent table to each row */
+	border:none;cursor:pointer;cursor:hand; text-align: left;}
+
+/* this DIV is the semi-transparent white background of each menu. the -moz-opacity is a proprietary way to get transparency in mozilla, the filter is for IE/windows 5.0+. */
+/* we set the background color in script because ie mac does not use it; that browser only uses a semi-transparent white PNG that the spacer gif inside this DIV is replaced by */
+.transMenu .background {position:absolute;left:0px; top:0px;z-index:1;-moz-opacity:.8;filter:alpha(opacity=70);}
+
+/* same concept as .background, but this is the sliver of shadow on the right of the menu. It's left, height, and background are set by script. In IE5/mac, it uses a PNG */
+.transMenu .shadowRight {position:absolute;z-index:3;top:3px; width:2px;-moz-opacity:.4;filter:alpha(opacity=40);}
+
+/* same concept as .background, but this is the sliver of shadow on the bottom of the menu. It's top, width, and background are set by script. In IE5/mac, it uses a PNG */
+.transMenu .shadowBottom {position:absolute;z-index:1;left:3px; height:2px;-moz-opacity:.4;filter:alpha(opacity=40);}
+
+/* this is the class that is used when the mouse is over an item. script sets the row to this class when required. */
+.transMenu .item.hover {background-color:#f1f1f1;color:#000;}
+
+/* this is either the dingbat that indicates there is a submenu, or a spacer gif in it's place. We give it extra margin to create some space between the text and the dingbat */
+.transMenu .item img {margin-left:0px;}
